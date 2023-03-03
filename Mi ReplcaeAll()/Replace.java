@@ -27,7 +27,8 @@ public class Replace
     }
     
     /**
-     * fucion miReplaceAll
+     * fucion miReplaceAll esta es otra manera funcional pero no tan efectiva y rapida como la de Java
+     ya que suele tardar demasiado tiempo
      */
     public String ourreplace(String old, String nuevo){
         long startTime = System.nanoTime();
@@ -51,6 +52,10 @@ public class Replace
         System.out.println("Tiempo2: "+ tiempo);
         return cad;                 
     }
+    /**
+    * Mi metodo final que controlando el tiempo, compite contra el 
+    * metodo de Java, incluso en algunos casos es mas eficiente.
+    */
     public String ReplaceAll(String old, String nuevo){
         long startTime = System.nanoTime();
         String cd,cd2; cd=cd2="";
@@ -72,6 +77,11 @@ public class Replace
         System.out.println("Tiempo3: "+ tiempo);
         return cad;             //23
     }
+    
+    /**
+    Metodo de ayuda, formador de cadenas que depende de una posicion inicial(pos1), y posicion limite(pos2),
+    la cadena cocn la que trabajaran es el atributo esencial de esta clase.
+    */
     private String toString(int pos1, int pos2){
         String cd3 ="";
         while(pos1 < pos2){
