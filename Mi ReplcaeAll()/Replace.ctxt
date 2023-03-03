@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Replace
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Replace\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=cad
+comment1.target=Replace(java.lang.String)
+comment2.params=ncad
+comment2.target=void\ setcad(java.lang.String)
+comment3.params=ochar\ nchar
+comment3.target=java.lang.String\ Javamode(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ funcion\ predeterminada\ de\ Java\ "ReplaceAll"\r\n
+comment4.params=old\ nuevo
+comment4.target=java.lang.String\ ourreplace(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ fucion\ miReplaceAll\r\n
+comment5.params=old\ nuevo
+comment5.target=java.lang.String\ ReplaceAll(java.lang.String,\ java.lang.String)
+comment6.params=pos1\ pos2
+comment6.target=java.lang.String\ toString(int,\ int)
+numComments=7
