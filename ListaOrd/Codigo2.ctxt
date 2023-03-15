@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Codigo2
+comment0.text=\r\n\ ordena\ los\ datos\ dados\ aleatoriamente\ en\ una\ lista.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=tam
+comment1.target=Codigo2(int)
+comment2.params=liminf\ limsup
+comment2.target=int[]\ rellenar(int,\ int)
+comment3.params=liminf\ limsup
+comment3.target=int[]\ rellenar2(int,\ int)
+comment4.params=numero
+comment4.target=boolean\ existe(int)
+comment5.params=num\ indice\ there
+comment5.target=boolean\ existe(int,\ int,\ boolean)
+comment6.params=
+comment6.target=int[]\ ordenar()
+numComments=7
