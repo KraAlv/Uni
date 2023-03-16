@@ -5,17 +5,26 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Codigo2
+public class Rellenadorsinrep
 {
     int [] lista;
-    public Codigo2(int tam){
+    public Rellenadorsinrep(int tam){
         lista = new int[tam];    
     }
-    public int[] rellenar(int liminf, int limsup){
+    public int[] rellenar(){
+        int max =creadormax(((lista.length)+"").length());
         for(int i =0; i < lista.length; i++){
-            lista[i] = (int)(Math.random()*(limsup - liminf) + liminf+1);
+            lista[i] = (int)(Math.random()*(max - 1) + 1+1);
         } 
         return lista;
+    }
+    private int creadormax(int length){
+        String num =9+"";
+        for(int i=1; i < length; i++){
+            num = num+"9";
+        }
+        int max = Integer.parseInt(num);
+        return max;
     }
     public int[] rellenar2(int liminf, int limsup){
         for(int i = 0; i < lista.length; i++){
@@ -39,11 +48,4 @@ public class Codigo2
         return there;
     }
     
-    public int[] ordenar(){
-        long startTime = System.nanoTime();
-        
-        long endTime = System.nanoTime();
-        long time = endTime -  startTime;
-        return lista;
-    }
 }
